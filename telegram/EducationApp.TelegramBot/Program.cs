@@ -33,7 +33,7 @@ namespace EducationApp.TelegramBot
             async Task OnMessage(Message msg, UpdateType type)
             {
                 if (msg.Text == "/start")
-                {
+                {   
                     await bot.SendMessage(msg.Chat, "Welcome! Pick one direction",
                         replyMarkup: new InlineKeyboardButton[] { "Left", "Right" });
                 }
