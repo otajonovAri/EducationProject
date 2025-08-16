@@ -1,0 +1,77 @@
+[33mcommit 5e4a319325d239e4f5ffa597f5e935ac71d3a147[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/Aziz/add-services[m[33m)[m
+Author: OtajonovAri <otajonovmuhammadali668@gmail.com>
+Date:   Tue Jul 1 19:28:12 2025 +0500
+
+    Fatal
+    :
+
+[33mcommit e147c3e64fe6c9792a4912b92449511e84e18a56[m[33m ([m[1;31morigin/create_services_Ubaydullox[m[33m)[m
+Author: NasriddUbaydullox <nasriddinovadildora45@gmail.com>
+Date:   Tue Jul 1 18:44:47 2025 +0500
+
+    Created Dto and Service File
+
+[33mcommit e02686811555e519eb4444cfbb914716326d5342[m[33m ([m[1;32mAli_branch[m[33m)[m
+Author: OneWay2Go <uchqunov.m@yandex.com>
+Date:   Tue Jul 1 00:17:04 2025 +0500
+
+    Invalid entity - IStaffRepositorys.cs deleted
+
+[33mcommit cbe6880574253e934b99782a72e11c715c7ae9cc[m
+Author: OneWay2Go <uchqunov.m@yandex.com>
+Date:   Tue Jul 1 00:13:11 2025 +0500
+
+    Add new repository interfaces and implementations
+    
+    Updated `DependencyInjection` to include new repository services: `IRoomRepository`, `IUserRoleRepository`, `IStaffRepository`, `IUserRepository`, `IRoleRepository`, `IPermissionRepository`, and `IRolePermissionRepository`.
+    
+    Created a new internal interface `IStaffRepositorys`.
+    
+    Added repository classes: `PermissionRepository`, `RolePermissionRepository`, `RoleRepository`, `RoomRepository`, `StaffRepository`, `UserRepository`, and `UserRoleRepository`, each implementing their respective interfaces and inheriting from `Repository<T>`.
+    
+    Defined new interfaces for each repository, ensuring a consistent repository pattern across the application.
+
+[33mcommit 78c0b6396145c78d43d754b2c3b16fac0196434e[m
+Author: Nasriddinov Ubaydullox <nasriddinovadildora45@gmail.com>
+Date:   Mon Jun 30 14:02:39 2025 +0500
+
+    Added Repost to Di container
+
+[33mcommit 64e1c015bbbd524d6a3468ab7ca76117f73ebfa4[m
+Author: Nasriddinov Ubaydullox <nasriddinovadildora45@gmail.com>
+Date:   Mon Jun 30 13:58:26 2025 +0500
+
+    Added DI container
+
+[33mcommit fc8607ff737bc9b70bef8c972429fd1641160786[m
+Author: Nasriddinov Ubaydullox <nasriddinovadildora45@gmail.com>
+Date:   Mon Jun 30 13:39:46 2025 +0500
+
+    Generated IRepository and Repository
+
+[33mcommit 4359c2242c8f14111ce32b19fda7c8a27d1d21ba[m
+Author: OtajonovAri <otajonovmuhammadali668@gmail.com>
+Date:   Mon Jun 30 12:25:51 2025 +0500
+
+    Migration Test transition
+
+[33mcommit 11a87b80235c139d3513b56880f2bfa8203f9edd[m
+Author: Nasriddinov Ubaydullox <nasriddinovadildora45@gmail.com>
+Date:   Sun Jun 29 20:08:39 2025 +0500
+
+    Bug Fix with Configurations
+
+[33mcommit abf1f9f63de61adab1fae97266f99ad150509064[m
+Author: OtajonovAri <otajonovmuhammadali668@gmail.com>
+Date:   Sun Jun 29 19:32:55 2025 +0500
+
+     Delete example
+
+[33mcommit 5ecc3cb29ecaecf86b71fa77152370a3f9c8cbce[m
+Merge: 03d0594 64d3004
+Author: Uchqunov Muhammadamin <uchqunov.m@yandex.com>
+Date:   Sun Jun 29 19:17:04 2025 +0500
+
+    Merge pull request #12 from otajonovAri/dev-temp
+    
+    Dev temp

@@ -1,0 +1,9 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace EducationApp.Application.DTOs.StaffSubjectDto;
+
+public class StaffSubjectUpdateDto
+{
+    [Required] public int StaffId { get; set; }
+    [Required] public int SubjectId { get; set; }
+}

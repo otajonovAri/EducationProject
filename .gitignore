@@ -404,3 +404,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/src/EducationApp.API/appsettings.Development.json
+/src/EducationApp.DataAccess/Migrations
