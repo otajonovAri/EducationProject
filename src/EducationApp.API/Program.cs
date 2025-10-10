@@ -17,7 +17,7 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Serilog 
+// Serilog 0000
 var fileName = "logs/log";
 
 Log.Logger = new LoggerConfiguration()
